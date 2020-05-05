@@ -108,7 +108,7 @@ nav a:hover {
 	color: #fff;
 }
 
-form {
+.newsletter form {
 	display: flex;
 }
 
@@ -163,7 +163,7 @@ footer {
 	width: 80%;
 	margin: auto;
 	display: grid;
-	grid-template-columns: 3fr 1fr;
+	grid-template-columns: 2.5fr 1fr;
 	gap: 6rem;
 	padding: 2rem 0;
 }
@@ -195,6 +195,14 @@ footer {
 }
 
 /* media queries */
+@media only screen and (max-width: 1000px) {
+		/* about */
+		.about-us {
+			grid-template-columns: 2fr 1fr;
+			gap: 1rem;
+		}
+}
+
 @media only screen and (max-width: 730px) {
 
 	/* header */
