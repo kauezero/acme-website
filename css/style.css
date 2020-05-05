@@ -204,4 +204,19 @@ footer {
 	.hero p {
 		font-size: 1em;
 	}
+
+	/* newsletter */
+
+	.newsletter-email {
+		display: flex;
+		flex-direction: column;
+		width: 80%;
+		margin-top: 1rem;
+	}
+
+	/* boxes */
+	.boxes {
+		grid-template-columns: 1fr;
+	}
+
 }
