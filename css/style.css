@@ -158,6 +158,32 @@ footer {
 	padding: 2.08rem;
 }
 
+/* about */
+.about-us {
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	gap: 6rem;
+	padding: 2rem 0;
+}
+
+.about-us h1 {
+	margin-bottom: 1.5rem;
+}
+
+.about-us p {
+	margin-bottom: 1rem;
+	font-weight: 400;
+	font-size: 0.9rem;
+}
+
+.dark-bg {
+	background-color: var(--dark-accent);
+	color: #fff;
+	padding: 1rem;
+}
+
 /* animations */
 @keyframes fade {
 	0% {
@@ -219,4 +245,9 @@ footer {
 		grid-template-columns: 1fr;
 	}
 
+	/* about */
+	.about-us {
+		grid-template-columns: 1fr;
+		gap: 1rem;
+	}
 }
