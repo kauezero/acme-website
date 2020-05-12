@@ -1,5 +1,7 @@
 # acme-website
-Website responsivo de empresa fictícia feito como estudo
 
-Este site foi feito com base no layout dado neste tutorial (https://www.youtube.com/watch?v=Wm6CUkswsNw).
-Apenas o layout foi utilizado como base, o código foi feito do zero utilizando técnicas diferentes das demonstradas no tutorial. No lugar de floats, utilizei Flexbox e Grid, além de variáveis e outras modificações.
+Responsive website made as a study.
+
+The layout was based on [this youtube tutorial](https://www.youtube.com/watch?v=Wm6CUkswsNw) by Traversy Media.
+
+The code was wirtten from scratch updating some dated stuff like the use of floats to flexbox and grid. Also used CSS variables where possible and made changes to the layout.
